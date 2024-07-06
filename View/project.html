@@ -1,0 +1,13 @@
+<div class="content">
+        <input type="text" ng-model="pencarian" placeholder="Cari Project"/>
+        <button ng-click="urutan= 'judul'">Urutkan Berdasarkan Judul</button>
+        <button ng-click="urutan= 'tgl'">Urutkan Berdasarkan Tanggal</button>
+        <ul>
+            <li ng-repeat="project in projects | orderBy: urutan | filter: pencarian">
+                <h1>{{project.judul}}</h1> <br> 
+                <h2 style="margin-top: -25px;">{{project.tgl}}</h2> <br>
+                <p style="width: 500px; font-size: 20px;">{{project.deskripsi}}</p> <br>
+                <img ng-src="{{project.gambar}}" alt="Maaf, ada kesalahan teknis" style="height: 400px; width: 900px; text-align: center; margin-top: -300px; margin-left: 800px;">
+            </li>
+        </ul>
+    </div>
