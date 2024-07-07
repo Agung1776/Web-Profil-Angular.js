@@ -104,11 +104,12 @@
 #Home h1{
   font-size: 55px;
   font-weight: bold;
+  margin-top: 500px;
 }
 
 #Home .keahlian{
-  margin-top: -235px;
-  margin-left: 1500px;
+  margin-top: -940px;
+  margin-left: 1300px;
 }
 
 /* Konten Projek */
