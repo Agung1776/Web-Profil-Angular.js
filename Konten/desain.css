@@ -3,8 +3,8 @@
   color: #fff;
   padding: 10px;
   Margin-top:-10px;
-  width:100%;
-  margin-left:-10px;
+  width: 1920px;
+  height: 100px;
 }
 
 #header h1{
@@ -12,6 +12,7 @@
   font-weight: normal;
   display: inline-block;
   font-weight: bold;
+  margin-top: 20px;
 }
 
 #header ul{
@@ -30,7 +31,7 @@
 
 #header a{
   color: #fff;
-  text-decoration:none;
+  text-decoration: none;
 }
 #header .ku{
   color:#fff;
@@ -42,7 +43,7 @@
   background-color: black;
   width:500px;
   height: 800px;
-  margin-top: -805px;
+  margin-top: -800px;
   margin-left: 150px;
   z-index:0;
   position: relative;
@@ -53,7 +54,7 @@
   background-color: black;
   width:500px;
   height: 800px;
-  margin-top: -805px;
+  margin-top: -800px;
   margin-left: -660px;
   z-index:0;
   position: relative;
@@ -69,9 +70,9 @@
 }
 .foto{
   height: 800px;
-  width: 100%;
-  margin-top:-10px; 
-  margin-left: 10px;
+  width: 1896px;
+  margin-top:-12px; 
+  margin-left: 13px;
   z-index:0;
   position: relative;
 }
@@ -107,7 +108,7 @@
 
 #Home .keahlian{
   margin-top: -435px;
-  margin-left: 1300px;
+  margin-left: 1500px;
 }
 
 /* Konten Projek */
