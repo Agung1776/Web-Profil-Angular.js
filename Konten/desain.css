@@ -3,7 +3,7 @@
   color: #fff;
   padding: 10px;
   Margin-top:-10px;
-  width: 1920px;
+  width: 100%;
   height: 100px;
 }
 
@@ -70,7 +70,7 @@
 }
 .foto{
   height: 800px;
-  width: 1896px;
+  width: 100%;
   margin-top:-12px; 
   margin-left: 13px;
   z-index:0;
@@ -87,7 +87,7 @@
 .profesi{
     color: white;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 45px;
     z-index: 2;
     position: relative;
 }
@@ -111,6 +111,11 @@
   margin-top: -940px;
   margin-left: 1300px;
 }
+#Home .foke{
+  margin-top: -65px;
+  margin-left: -45px;
+}
+
 
 /* Konten Projek */
 
@@ -168,4 +173,149 @@
   width: 150px;
   display: block;
   margin: 15px auto;
+}
+
+.content p{
+  width: 500px; 
+  font-size: 20px;
+}
+
+.content h2{
+  margin-top: -25px;
+}
+
+.fopro{
+  height: 400px;
+  width: 900px;
+  text-align: center; 
+  margin-top: -300px; 
+  margin-left: 800px;
+}
+
+@media only screen and (max-width: 600px) {
+
+  /* header HP */
+
+  #header{
+    background: black;
+    color: #fff;
+    padding: 10px;
+    Margin-top:-10px;
+    width: 100%;
+  }
+  #header h1{
+    font-size: 15px;
+    font-weight: normal;
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  #header li{
+    float: right;
+    margin-left: 20px;
+    margin-top:15px;
+    font-size: 10px;
+  }
+
+  /* Gambar yang berganti. */
+  .profile-bg{
+  background-color: black;
+  width:115px;
+  height: 301px;
+  margin-top: -2px;
+  margin-left: 30px;
+  z-index:0;
+  position: relative;
+  transform: skew(-20deg);
+        
+}
+.profile-bg2{
+  background-color: black;
+  width:100px;
+  height: 301px;
+  margin-top: -2px;
+  margin-left: -141px;
+  z-index:0;
+  position: relative;
+  transform: skew(20deg);
+}
+.fading{
+  margin-left: 99px;
+  z-index:0;
+  position: relative;
+  width:100px; 
+  height:301px;
+  background-image: linear-gradient(to left, rgba(0,0,255,0), rgb(0, 0, 0));
+  margin-top: -301px;
+}
+.foto{
+  height: 300px;
+  width: 100%;
+  margin-top:-12px; 
+  margin-left: 13px;
+  z-index:0;
+  position: relative;
+}
+.nama{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 0px;
+    z-index: 2;
+    position: relative;
+    margin-top: -250px;
+    width: 50px;
+}
+.profesi{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    z-index: 2;
+    position: relative;
+    width: 50px;
+}
+
+/* homepage */
+.bodyhome{
+  padding: 10px;
+}
+#Home{
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+#Home p{
+  font-size: 15px;
+  width: 100%;
+}
+
+#Home h1{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+#Home .keahlian{
+  margin-top: -10px;
+  margin-left: 0px;
+}
+
+#Home .foke{
+  margin-top: -10px;
+  margin-left: 0px;
+  width: 100%;
+}
+
+/* konten projek */
+
+.content p{
+  width: 100%; 
+}
+
+.fopro{
+  width: 100%;
+  text-align: center; 
+  margin-top: 0px; 
+  margin-left: 0px;
+}
 }
